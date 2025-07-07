@@ -17,4 +17,9 @@ public class MainController {
     public String about(){
         return "about";
     }
+
+    @GetMapping("/products")
+    public String allProducts(){
+        return "allProducts";
+    }
 }
